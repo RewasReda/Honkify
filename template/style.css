@@ -22,18 +22,30 @@ body {
 }
 header {
   grid-area: header;
-  background-color: #203040;
+  /*background-color: #1b1c74;*/
+  background-color: #2e2e30;
 }
 main {
   grid-area: main;
   padding: 1rem;
+  background-color: #030303;
 }
 footer {
   grid-area: footer;
-  background-color: #203040;
+  background-color: #2e2e30;
   color: #000000;
 }
 /* Common */
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1.6rem;
+  padding: 1rem 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -61,4 +73,38 @@ a.brand {
 
 .row.center {
   justify-content: center;
+}
+/* Image */
+img {
+  border-radius: 0.5rem;
+}
+
+img.medium {
+  max-width: 29rem;
+  width: 100%;
+}
+
+/*  Cards */
+.card {
+  border: 0.1rem #6b6969 solid;
+  background-color: #0f0f0f;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}
+.card-body {
+  padding: 1rem;
+}
+.card-body > * {
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+/*  Rating */
+.rating span {
+  color: #f0c040;
+  margin: 0.1rem;
 }
