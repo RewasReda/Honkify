@@ -1,6 +1,8 @@
-import React from 'react';
-import data from './data';
-function App() {
+import React from "react";
+import Product from "./components/Product";
+import data from "./data";
+function App(props) {
+  const { product } = props;
   return (
     <div className="grid-container">
       <header className="row">
@@ -18,7 +20,7 @@ function App() {
         <div>
           <div className="row center">
             {data.products.map((product) => (
-              <product key = {product._id} product={product}></product>
+              <Product key={product._id} product={product}></Product>
             ))}
           </div>
         </div>
