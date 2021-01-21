@@ -178,6 +178,19 @@ img.large {
   color: #20a020;
 }
 
-.error {
+.danger {
   color: #a02020;
+}
+.alert {
+  padding: 1rem;
+  border: 0.1rem solid transparent;
+  border-radius: 0.5rem;
+}
+.alert-info {
+  color: #2020a0;
+  background-color: #0f0f0f;
+}
+.alert-danger {
+  color: #a02020;
+  background-color: #0f0f0f;
 }
